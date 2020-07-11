@@ -13,12 +13,12 @@ syntax enable
 syntax on
 
 "required
-filetype on
+"filetype on
 
 " 自适应不同语言的智能缩进
-filetype indent on
-filetype plugin on
-"filetype plugin indent on
+"filetype indent on
+"filetype plugin on
+filetype plugin indent on
 
 " 将制表符扩展为空格
 set expandtab
@@ -83,7 +83,7 @@ hi IndentGuidesEven ctermbg=darkgrey
 
 
 " vundle 环境设置
-filetype off
+"filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 " vundle 管理的插件列表必须位于 vundle#begin() 和 vundle#end() 之间
 call vundle#begin()
